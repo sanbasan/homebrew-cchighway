@@ -1,0 +1,85 @@
+   ____ ____ _   _ _       _                        
+  / ___/ ___| | | (_) __ _| |____      ____ _ _   _ 
+ | |  | |   | |_| | |/ _` | '_ \ \ /\ / / _` | | | |
+ | |__| |___|  _  | | (_| | | | \ V  V / (_| | |_| |
+  \____\____|_| |_|_|\__, |_| |_|\_/\_/ \__,_|\__, |
+                     |___/                    |___/ 
+Claude Code Highway - Wrapper Tool\n
+- Starting CCHighway server...
+2025-06-11 12:55:37 [INFO] Using Claude Code at: /Users/sanbasan/.nvm/versions/node/v20.19.1/bin/claude
+2025-06-11 12:55:37 [INFO] CCHighway server started on port 3000
+{
+  "port": 3000,
+  "workDir": "/Users/sanbasan/cchighway",
+  "daemon": false
+}
+✔ Server started successfully!
+\n✓ CCHighway server running on port 3000
+  Working directory: /Users/sanbasan/cchighway
+  API URL: http://localhost:3000/api
+  WebSocket URL: ws://localhost:3000
+\nPress Ctrl+C to stop the server
+2025-06-11 12:55:58 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/api/health",
+  "statusCode": 404,
+  "duration": "2ms",
+  "userAgent": "curl/8.7.1"
+}
+2025-06-11 12:56:03 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/api/health",
+  "statusCode": 404,
+  "duration": "3ms",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+}
+2025-06-11 12:56:08 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json",
+  "statusCode": 404,
+  "duration": "1ms",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+}
+2025-06-11 12:56:15 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "2ms",
+  "userAgent": "curl/8.7.1"
+}
+2025-06-11 12:56:26 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/",
+  "statusCode": 200,
+  "duration": "1ms",
+  "userAgent": "curl/8.7.1"
+}
+2025-06-11 12:56:32 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/api/health",
+  "statusCode": 404,
+  "duration": "1ms",
+  "userAgent": "curl/8.7.1"
+}
+2025-06-11 12:56:49 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "3ms",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+}
+2025-06-11 12:56:49 [INFO] HTTP Request
+{
+  "method": "GET",
+  "url": "/favicon.ico",
+  "statusCode": 404,
+  "duration": "1ms",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+}
